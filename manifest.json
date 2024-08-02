@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL Change Alert",
+  "version": "1.0",
+  "description": "Alerts you whenever the URL of the active tab changes.",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
